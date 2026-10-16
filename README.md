@@ -99,13 +99,4 @@ With only 179 test rows, one accuracy number can move by about 3 points from a d
 
 Python, pandas, NumPy, Matplotlib, Seaborn, scikit-learn
 
-## How to run
 
-```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
-pip install pandas numpy matplotlib seaborn scikit-learn jupyter
-jupyter notebook
-```
-
-Put `train.csv` and `test.csv` in a `data/` folder. Change the paths in the notebook from the local `C:/Users/...` paths to `data/train.csv` and `data/test.csv`, then run all cells.
